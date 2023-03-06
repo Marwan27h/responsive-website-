@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+
+}
+
+.section2  {
+    background-image: url(back1.jpeg); 
+    border: 1px black solid ;
+    border-left: none;
+    border-right: none;
+    
+}
+.section3 {
+    background-image: url(back1.jpeg); 
+}
+.carousel-inner {
+    border: 2px solid blanchedalmond;
+
+  
+}
+
+
+
+
+body{
+    color: brown;
+    font-family: sans-serif;
+    background-color: white;
+}
+nav li{
+    color: blue;
+}
+footer{
+    height: 250px;
+    background-color: darkolivegreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width: 800px){
+    .container1 h3{
+        width: 75%;
+    }
+}
